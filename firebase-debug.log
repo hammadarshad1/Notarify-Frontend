@@ -1,0 +1,206 @@
+[debug] [2021-11-03T14:41:59.310Z] ----------------------------------------------------------------------
+[debug] [2021-11-03T14:41:59.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-03T14:41:59.314Z] CLI Version:   9.20.0
+[debug] [2021-11-03T14:41:59.314Z] Platform:      win32
+[debug] [2021-11-03T14:41:59.314Z] Node Version:  v14.18.0
+[debug] [2021-11-03T14:41:59.315Z] Time:          Wed Nov 03 2021 09:41:59 GMT-0500 (Central Daylight Time)
+[debug] [2021-11-03T14:41:59.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-03T14:41:59.324Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-03T14:41:59.324Z] > authorizing via signed-in user (abdulhadi8369@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abdul Hadi\Desktop\projects\notarify-frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-03T14:42:06.590Z] > refreshing access token with scopes: []
+[debug] [2021-11-03T14:42:06.591Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-03T14:42:07.044Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Wed, 03 Nov 2021 14:42:06 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:42:07.072Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-11-03T14:42:08.311Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-11-03T14:42:08.312Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2021-11-03T14:42:14.457Z] ----------------------------------------------------------------------
+[debug] [2021-11-03T14:42:14.459Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-03T14:42:14.459Z] CLI Version:   9.20.0
+[debug] [2021-11-03T14:42:14.459Z] Platform:      win32
+[debug] [2021-11-03T14:42:14.459Z] Node Version:  v14.18.0
+[debug] [2021-11-03T14:42:14.460Z] Time:          Wed Nov 03 2021 09:42:14 GMT-0500 (Central Daylight Time)
+[debug] [2021-11-03T14:42:14.461Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-03T14:42:14.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-03T14:42:14.470Z] > authorizing via signed-in user (abdulhadi8369@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abdul Hadi\Desktop\projects\notarify-frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-11-03T14:43:03.827Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-03T14:43:03.827Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-03T14:43:04.227Z] <<< HTTP RESPONSE 200 {"date":"Wed, 03 Nov 2021 14:43:03 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:43:04.261Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"notarify","name":"notarify"}
+[debug] [2021-11-03T14:43:05.876Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Wed, 03 Nov 2021 14:43:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1261","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:43:05.877Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2021-11-03T14:43:06.234Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:400:28)
+    at Request.emit (domain.js:475:12)
+    at Request.<anonymous> (C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:400:28)
+    at Request.emit (domain.js:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:519:28)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID notarify. Please try again with a unique project ID.
+[debug] [2021-11-03T14:43:13.758Z] ----------------------------------------------------------------------
+[debug] [2021-11-03T14:43:13.760Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-03T14:43:13.761Z] CLI Version:   9.20.0
+[debug] [2021-11-03T14:43:13.761Z] Platform:      win32
+[debug] [2021-11-03T14:43:13.761Z] Node Version:  v14.18.0
+[debug] [2021-11-03T14:43:13.762Z] Time:          Wed Nov 03 2021 09:43:13 GMT-0500 (Central Daylight Time)
+[debug] [2021-11-03T14:43:13.762Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-03T14:43:13.770Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-03T14:43:13.770Z] > authorizing via signed-in user (abdulhadi8369@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abdul Hadi\Desktop\projects\notarify-frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-11-03T14:43:44.576Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"notarify","name":"notarify"}
+[debug] [2021-11-03T14:43:48.626Z] ----------------------------------------------------------------------
+[debug] [2021-11-03T14:43:48.628Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abdul Hadi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-03T14:43:48.628Z] CLI Version:   9.20.0
+[debug] [2021-11-03T14:43:48.628Z] Platform:      win32
+[debug] [2021-11-03T14:43:48.628Z] Node Version:  v14.18.0
+[debug] [2021-11-03T14:43:48.629Z] Time:          Wed Nov 03 2021 09:43:48 GMT-0500 (Central Daylight Time)
+[debug] [2021-11-03T14:43:48.630Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-03T14:43:48.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-03T14:43:48.639Z] > authorizing via signed-in user (abdulhadi8369@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abdul Hadi\Desktop\projects\notarify-frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-11-03T14:44:04.171Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"notarify-1122","name":"notarify-1122"}
+[debug] [2021-11-03T14:44:05.765Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Nov 2021 14:44:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1352","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:44:05.776Z] > refreshing access token with scopes: []
+[debug] [2021-11-03T14:44:05.777Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-03T14:44:06.124Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Wed, 03 Nov 2021 14:44:05 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:44:06.143Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8943482671153260451 [none]
+[debug] [2021-11-03T14:44:07.845Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8943482671153260451 200
+[debug] [2021-11-03T14:44:07.849Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8943482671153260451 {"name":"operations/cp.8943482671153260451"}
+[debug] [2021-11-03T14:44:08.360Z] [Project Creation Poller] Retrying task index 0
+[debug] [2021-11-03T14:44:08.363Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8943482671153260451 [none]
+[debug] [2021-11-03T14:44:10.065Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8943482671153260451 200
+[debug] [2021-11-03T14:44:10.065Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8943482671153260451 {"name":"operations/cp.8943482671153260451","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"429113950770","projectId":"notarify-1122","lifecycleState":"ACTIVE","name":"notarify-1122","createTime":"2021-11-03T14:44:04.679Z"}}
+[debug] [2021-11-03T14:44:10.072Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-03T14:44:10.072Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-03T14:44:10.417Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 03 Nov 2021 14:44:09 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:44:10.433Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/notarify-1122:addFirebase  
+ 
+[debug] [2021-11-03T14:44:13.462Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 03 Nov 2021 14:44:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:44:13.464Z] > refreshing access token with scopes: []
+[debug] [2021-11-03T14:44:13.465Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-03T14:44:13.934Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 03 Nov 2021 14:44:13 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-03T14:44:13.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 [none]
+[debug] [2021-11-03T14:44:14.947Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 200
+[debug] [2021-11-03T14:44:14.949Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 {"name":"operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0"}
+[debug] [2021-11-03T14:44:15.459Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-11-03T14:44:15.460Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 [none]
+[debug] [2021-11-03T14:44:16.439Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 200
+[debug] [2021-11-03T14:44:16.439Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 {"name":"operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0"}
+[debug] [2021-11-03T14:44:17.448Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-11-03T14:44:17.450Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 [none]
+[debug] [2021-11-03T14:44:18.448Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 200
+[debug] [2021-11-03T14:44:18.448Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 {"name":"operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0"}
+[debug] [2021-11-03T14:44:20.459Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2021-11-03T14:44:20.460Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 [none]
+[debug] [2021-11-03T14:44:21.200Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 200
+[debug] [2021-11-03T14:44:21.201Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0 {"name":"operations/workflows/Y2IyZWUyOTItODc0MC00ZmM2LTg0N2EtMGI1OGY3NDgxODU0","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"notarify-1122","projectNumber":"429113950770","displayName":"notarify-1122","name":"projects/notarify-1122","resources":{"hostingSite":"notarify-1122"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: notarify-1122
+[info]    - Project Name: notarify-1122
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/notarify-1122/overview
+[info] i  Using project notarify-1122 (notarify-1122) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
